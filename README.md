@@ -3,10 +3,9 @@
 ![image](https://media.tenor.com/images/56ad39c772d3917c2457c2b8c22dea6d/tenor.gif)
 
 ## COMMANDS
-------------
 
 ## ALTER TABLE
-`ALTER TABLE table_name` \  
+`ALTER TABLE table_name`\  
 `ADD column_name datatype;` \
 ALTER TABLE lets you add columns to a table in a database.
 
@@ -25,13 +24,13 @@ AS is a keyword in SQL that allows you to rename a column or table using an alia
 
 ## AVG()
 `SELECT AVG(column_name)` \
-FROM table_name;
+`FROM table_name;` \
 AVG() is an aggregate function that returns the average value for a numeric column.
 
 ## BETWEEN
-SELECT column_name(s)
-FROM table_name
-WHERE column_name BETWEEN value_1 AND value_2;
+``SELECT column_name(s)`` \
+``FROM table_name`` \
+``WHERE column_name BETWEEN value_1 AND value_2;`` \
 The BETWEEN operator is used to filter the result set within a certain range. The values can be numbers, text or dates.
 
 ## CASE
