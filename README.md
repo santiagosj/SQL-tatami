@@ -34,26 +34,26 @@ AVG() is an aggregate function that returns the average value for a numeric colu
 The BETWEEN operator is used to filter the result set within a certain range. The values can be numbers, text or dates.
 
 ## CASE
-SELECT column_name,
-  CASE
-    WHEN condition THEN 'Result_1'
-    WHEN condition THEN 'Result_2'
-    ELSE 'Result_3'
-  END
-FROM table_name;
+``SELECT column_name,`` \
+  ``CASE`` \
+    ``WHEN condition THEN 'Result_1'`` \
+    ``WHEN condition THEN 'Result_2'`` \
+    ``ELSE 'Result_3'`` \
+  ``END`` \
+``FROM table_name;`` \
 CASE statements are used to create different outputs (usually in the SELECT statement). It is SQL’s way of handling if-then logic.
 
-COUNT()
-SELECT COUNT(column_name)
-FROM table_name;
+## COUNT()
+``SELECT COUNT(column_name)`` \
+``FROM table_name;`` \
 COUNT() is a function that takes the name of a column as an argument and counts the number of rows where the column is not NULL.
 
 ## CREATE TABLE
-CREATE TABLE table_name (
-  column_1 datatype, 
-  column_2 datatype, 
-  column_3 datatype
-);
+    CREATE TABLE table_name (
+      column_1 datatype, 
+      column_2 datatype, 
+      column_3 datatype
+    );
 CREATE TABLE creates a new table in the database. It allows you to specify the name of the table and the name of each column in the table.
 
 ## DELETE
