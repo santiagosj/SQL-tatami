@@ -1,6 +1,4 @@
-# Remember SQL?
-
-![image](https://media.tenor.com/images/56ad39c772d3917c2457c2b8c22dea6d/tenor.gif)
+# MY SQL learning track
 
 ## COMMANDS
 
