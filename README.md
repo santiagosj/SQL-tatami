@@ -16,6 +16,7 @@ ALTER TABLE lets you add columns to a table in a database.
     WHERE column_1 = value_1
     AND   column_2 = value_2;
 AND is an operator that combines two conditions. Both conditions must be true for the row to be included in the result set.
+![Image](https://s3.amazonaws.com/codecademy-content/courses/learn-sql/queries/AND.svg)
 
 ## AS
      SELECT column_name AS 'Alias'
@@ -120,7 +121,7 @@ MIN() is a function that takes the name of a column as an argument and returns t
     WHERE column_name = value_1
        OR column_name = value_2;
 OR is an operator that filters the result set to only include rows where either condition is true.
-
+![Image](https://s3.amazonaws.com/codecademy-content/courses/learn-sql/queries/OR.svg)
 ## ORDER BY
      SELECT column_name
      FROM table_name
